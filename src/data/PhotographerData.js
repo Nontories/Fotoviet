@@ -1,0 +1,112 @@
+import phuongAvt from "../assets/picture/personalPicture/phuongPic.png"
+
+const photographer = [
+    {
+        _id : 1,
+        name : "Thập Bình Phương",
+        avt : phuongAvt,
+        locate : "Quận 1, Hồ Chí Minh",
+        introduce : "Tôi là một nhiếp ảnh gia chuyên nghiệp với hơn 12 năm kinh nghiệm trong lĩnh vực chụp ảnh. Tôi đã có cơ hội làm việc với các nhiệm vụ đa dạng, bao gồm chụp đám cưới, phong cảnh và sản phẩm.",
+        flower: 12,
+        topic : {
+            sinh_nhat : false,
+            su_kien : false,
+            profile : false,
+            sinh_nhat : false,
+            gia_dinh : false,
+            dam_cuoi : false,
+            san_pham : false,
+            chan_dung : false,
+            tre_nho : false,
+            phong_cach : false,
+            khac : false,
+        },
+        pack : "Gói FotoPRO"
+    },
+    {
+        _id : 2,
+        name : "Thập Bình Phương 2",
+        avt : phuongAvt,
+        locate : "Quận 1, Hồ Chí Minh",
+        introduce : "Tôi là một nhiếp ảnh gia chuyên nghiệp với hơn 12 năm kinh nghiệm trong lĩnh vực chụp ảnh. Tôi đã có cơ hội làm việc với các nhiệm vụ đa dạng, bao gồm chụp đám cưới, phong cảnh và sản phẩm.",
+        topic : {
+            sinh_nhat : false,
+            su_kien : false,
+            profile : false,
+            sinh_nhat : false,
+            gia_dinh : false,
+            dam_cuoi : false,
+            san_pham : false,
+            chan_dung : false,
+            tre_nho : false,
+            phong_cach : false,
+            khac : false,
+        },
+        pack : "Gói FotoPRO"
+    },
+    {
+        _id : 3,
+        name : "Thập Bình Phương 3",
+        avt : phuongAvt,
+        locate : "Quận 1, Hồ Chí Minh",
+        introduce : "Tôi là một nhiếp ảnh gia chuyên nghiệp với hơn 12 năm kinh nghiệm trong lĩnh vực chụp ảnh. Tôi đã có cơ hội làm việc với các nhiệm vụ đa dạng, bao gồm chụp đám cưới, phong cảnh và sản phẩm.",
+        topic : {
+            sinh_nhat : false,
+            su_kien : false,
+            profile : false,
+            sinh_nhat : false,
+            gia_dinh : false,
+            dam_cuoi : false,
+            san_pham : false,
+            chan_dung : false,
+            tre_nho : false,
+            phong_cach : false,
+            khac : false,
+        },
+        pack : "Gói FotoPRO"
+    },
+    {
+        _id : 4,
+        name : "Thập Bình Phương 4",
+        avt : phuongAvt,
+        locate : "Quận 1, Hồ Chí Minh",
+        introduce : "Tôi là một nhiếp ảnh gia chuyên nghiệp với hơn 12 năm kinh nghiệm trong lĩnh vực chụp ảnh. Tôi đã có cơ hội làm việc với các nhiệm vụ đa dạng, bao gồm chụp đám cưới, phong cảnh và sản phẩm.",
+        topic : {
+            sinh_nhat : false,
+            su_kien : false,
+            profile : false,
+            sinh_nhat : false,
+            gia_dinh : false,
+            dam_cuoi : false,
+            san_pham : false,
+            chan_dung : false,
+            tre_nho : false,
+            phong_cach : false,
+            khac : false,
+        },
+        pack : "Gói FotoPRO"
+    },
+    {
+        _id : 5,
+        name : "Thập Bình Phương 5",
+        avt : phuongAvt,
+        locate : "Quận 1, Hồ Chí Minh",
+        introduce : "Tôi là một nhiếp ảnh gia chuyên nghiệp với hơn 12 năm kinh nghiệm trong lĩnh vực chụp ảnh. Tôi đã có cơ hội làm việc với các nhiệm vụ đa dạng, bao gồm chụp đám cưới, phong cảnh và sản phẩm.",
+        topic : {
+            sinh_nhat : false,
+            su_kien : false,
+            profile : false,
+            sinh_nhat : false,
+            gia_dinh : false,
+            dam_cuoi : false,
+            san_pham : false,
+            chan_dung : false,
+            tre_nho : false,
+            phong_cach : false,
+            khac : false,
+        },
+        pack : "Gói FotoPRO"
+    },
+]
+
+export default photographer

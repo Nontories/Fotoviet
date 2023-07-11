@@ -1,0 +1,22 @@
+.blog_detail{
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.blog_detail_banner{
+    width: 100%;
+    /* max-height: 70vh;
+    overflow: hidden; */
+}
+
+.blog_detail_banner img{
+    width: 100%;
+}
+
+.blog_detail_title{
+    width: 70%;
+    margin: 20px auto;
+    font-size: 50px;
+    font-weight: 700;
+}

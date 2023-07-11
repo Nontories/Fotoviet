@@ -1,0 +1,267 @@
+.personal {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #e4f0ef;
+}
+
+.personal_infomation {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.personal_infomation_right {
+    width: 80%;
+}
+
+.personal_infomation_right_top {
+    display: flex;
+}
+
+.personal_avt {
+    width: 300px;
+    height: 250px;
+    margin-right: 5%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.personal_avt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: contain; */
+}
+
+.personal_detail {
+    width: 90%;
+    margin: auto 0;
+}
+
+.personal_detail_name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.personal_detail_quality {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.personal_detail_quality_follow {
+    color: #a4a9aa;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.personal_detail_quality_rating {
+    width: 65%;
+}
+
+.personal_detail_quality_rating img {
+    margin-right: 3%;
+}
+
+.personal_detail_quality_rating p {
+    display: inline;
+}
+
+.personal_detail_link img {
+    margin-right: 30px;
+}
+
+.personal_infomation_right_bottom {
+    width: 78%;
+    margin-top: 20px;
+}
+
+.personal_description {
+    width: 100%;
+    opacity: 0.7;
+    word-spacing: 2px;
+    row-gap: 10px;
+}
+
+.personal_infomation_left {
+    width: 30%;
+    position: relative;
+}
+
+.personal_infomation_card {
+    position: absolute;
+    bottom: 10px;
+    left: -50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.personal_infomation_card_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.personal_infomation_card_content_title {
+    font-weight: bold;
+}
+
+.personal_collection {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.personal_collection h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.personal_collection_nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.personal_collection_nav_topic {
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid rgba(36, 171, 112, 0.5);
+    user-select: none;
+}
+
+.personal_collection_nav_topic:hover{
+    cursor: pointer;
+}
+
+.active{
+    background-color: #24ab70;
+    color: white;
+}
+
+.personal_collection_image{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-between;
+    transform: translateX(50px);
+}
+
+.personal_collection_image_left{
+    width: 20%;
+}
+
+.personal_collection_image_left img{
+    width: 100%;
+}
+
+.personal_collection_image_left_bottom{
+    margin-top: 50px;
+}
+
+.personal_collection_image_center{
+    height: 100%;
+}
+
+.personal_collection_image_center img{
+    height: 100%;
+}
+
+.personal_collection_image_right{
+    width: 45%;
+}
+
+.personal_collection_image_right img{
+    height: 100%;
+}
+
+.personal_rating{
+    width: 83.5%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.personal_rating_title{
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+}
+
+.personal_rating_title::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #24ab70;
+    border-radius: 5px;
+    top: -25px;
+}
+
+.personal_rating_parameter{
+    display: flex;
+    align-items: center;
+}
+
+.personal_rating_parameter_number{
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.personal_rating_parameter_content_star img{
+    margin-right: 4px;
+}
+
+.personal_rating_parameter_content_amount{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.personal_rating_comment{
+    width: 100%;
+}
+
+.personal_rating_comment_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.comment_item_infor{
+    width: fit-content;
+}
+
+.comment_item_infor_top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.comment_item_infor_top--name{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.comment_item_infor_top--rating{
+    color: #24ab70;
+}
+
+.comment_item_infor_bottom{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.comment_item_content{
+    width: 80%;
+}

@@ -1,0 +1,6 @@
+.setting_content{
+    width: 100%;
+    height: fit-content;
+    min-height: 103vh;
+    display: flex;
+}

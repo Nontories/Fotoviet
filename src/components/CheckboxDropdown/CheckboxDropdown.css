@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  
+  .CheckboxMenu .dropdown-item:hover,
+  .CheckboxMenu .dropdown-item:active {
+    background-color: transparent;
+    color: black;
+  }
+
+.dropdown-menu{
+    width: 300px !important;
+}
+
+.dropdown-item{
+    width: 140px !important;
+}
+
+.list-unstyled{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.find_dropdown{
+    display: inline;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    font-size: 10px !important;
+    text-align: center;
+    opacity: 0.7 !important;
+}

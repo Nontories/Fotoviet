@@ -1,0 +1,57 @@
+.signup{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.signup h1{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.signup div{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.signup_noaccount a{
+    text-decoration: none;
+    color: #6A6E71;
+}
+
+.signup_noaccount a span{
+    color: #24AB70;
+}
+
+.signup_button{
+    margin-top: 70px !important;
+}
+
+.signup_button button{
+    padding: 15px 60px;
+    border: none;
+    background-color: #24AB70;
+    color: white;
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+.signup_button button:hover{
+    cursor: pointer;
+}
+
+.sign_feild{
+    width: 30%;
+    padding: 10px 20px;
+    background-color: #EAF0F7;
+    border-radius: 25px;
+    border: none;
+}
+
+.signup_dropdown{
+    margin: 0 auto;
+    color: #757575 !important;
+}
+

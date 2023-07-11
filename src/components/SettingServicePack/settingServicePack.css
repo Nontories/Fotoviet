@@ -1,0 +1,120 @@
+.setting_servicePack{
+    width: 78%;
+    margin: 40px;
+}
+
+.setting_servicePack_header{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.setting_servicePack_content{
+    width: 100%;
+}
+
+.setting_servicePack_content_header{
+    display: flex;
+    margin: 30px 0;
+}
+
+.setting_servicePack_content_header_title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.setting_servicePack_content_header_time{
+    color: #24AB70;
+}
+
+.setting_servicePack_content_pack{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.setting_servicePack_content_pack_pro{
+    width: 35%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.setting_servicePack_content_pack_vip{
+    width: 35%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.setting_servicePack--title{
+    background-color: #E4F0EF;
+    padding: 7px 20px;
+    font-weight: 700;
+}
+
+.setting_servicePack--information{
+    display: flex;
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.setting_servicePack--information p{
+    margin: 12px 0 0 10px;
+    margin-top: 12px;
+}
+
+.setting_servicePack--information img{
+    height: 100%;   
+}
+
+.setting_servicePack_content_button{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.setting_servicePack_content_button div{
+    padding: 10px 50px;
+    background-color: #24AB70;
+    color: white;
+    border-radius: 25px;
+}
+
+.setting_servicePack_content_button div:hover{
+    background-color: #1a794f;
+    cursor: pointer;
+}
+
+.setting_servicePack_content_button--vip{
+    background-color: #80938B !important;
+}
+
+.setting_servicePack_content_button--vip:hover{
+    background-color: #80938B !important;
+}
+
+.setting_servicePack_transferInformation{
+    width: 40%;
+}
+
+.setting_servicePack_transferInformation_header{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.setting_servicePack_transferInformation_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.setting_servicePack_note{
+    margin: 20px 0;
+}

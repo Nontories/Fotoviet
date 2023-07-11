@@ -1,0 +1,66 @@
+.setting_orderStatus{
+    margin-left: 20px;
+    width: 75%;
+}
+
+.setting_orderStatus_header{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.setting_orderStatus_content_header{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.setting_orderStatus_content{
+    width: 100%;
+}
+
+.setting_orderStatus_content_table{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.setting_orderStatus_content_table_header{
+    display: flex;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    box-shadow: -1px -1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.setting_orderStatus_content_table_header_content{
+    width: 20%;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #E4F0EF;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.setting_orderStatus_content_table_column{
+    display: flex;
+    width: 100%;
+    box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.setting_orderStatus_content_table_column_content{
+    width: 20%;
+    text-align: center;
+    padding: 5px 0;
+    box-shadow: -1px 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.setting_orderStatus_content_table_more{
+    text-align: right;
+    color: #24AB70;
+    margin: 10px 0;
+}
+
+.setting_orderStatus_content_table_more:hover{
+    cursor: pointer;
+}

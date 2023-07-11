@@ -1,0 +1,62 @@
+.signin{
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.signin h1{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.signin div{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.signin_account input{
+    width: 400px;
+    padding: 10px 20px;
+    background-color: #EAF0F7;
+    border-radius: 25px;
+    border: none;
+}
+
+.signin_password input{
+    width: 400px;
+    padding: 10px 20px;
+    background-color: #EAF0F7;
+    border-radius: 25px;
+    border: none;
+}
+
+.signin_noaccount div{
+    color: #6A6E71;
+}
+
+.signin_noaccount_link{
+    color: #24AB70;
+    text-decoration: none;
+}
+
+.signin_button button{
+    padding: 15px 60px;
+    border: none;
+    background-color: #24AB70;
+    color: white;
+    font-weight: 600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.signin_button button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 990px) {
+    .signin_button button{
+        margin: 10px 10px;
+    }
+}

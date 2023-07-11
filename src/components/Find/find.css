@@ -1,0 +1,74 @@
+.find{
+    width: 70%;
+    height: 70px;
+    box-shadow: 0 10px 0 0 #91d4b7;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+
+.find_section{
+    width: 20%;
+    padding: 20px 20px;
+}
+
+.find_section p{
+    width: 100%;
+    margin: 0;
+}
+
+.find_button{
+    width: 130px;
+    height: fit-content;
+    margin: auto 10px;
+    padding: 10px 0;
+    background-color: #24ab70;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translateX(40px);
+}
+
+.find_button:hover{
+    background-color: #1a8154;
+}
+
+.find_button div{
+    text-align: center;
+    color: white;
+    font-weight: 5 00;
+}
+
+@media (max-width: 1300px) {
+
+    .find_section{
+        width: 20%;
+        padding: 20px 0;
+    }
+    
+    .find_button{
+        width: 100px;
+        margin: auto 0;
+        transform: translateX(20px);
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .find{
+        width: 450px;
+        transform: translateX(40px) translateY(50px);
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .find{
+        transform: translateX(40px) translateY(130px);
+    }
+
+}

@@ -1,0 +1,34 @@
+.findPhotographer{
+    width: 100%;
+    height:fit-content;
+}
+
+.findPhotographer_header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.findPhotographer_header h1{
+    text-align: center;
+    font-size: 80px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.findPhotographer_header p{
+    text-align: center;
+    width: 30%;
+    margin: 30px auto;
+}
+
+.findPhotographer_header p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.findPhotographer_body{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+}

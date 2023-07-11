@@ -1,0 +1,85 @@
+.card{
+    position: relative;
+    width: 21%;
+    height: 530px;
+    padding: 10px 0;
+    margin: 0 25px;
+    margin-top: 50px;
+    border: 1px solid rgba(36, 171, 112, 0.3);
+}
+
+.card_content{
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.card_content_image{
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card_content_image img{
+    width: 100%;
+}
+
+.card_content_link{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.card_content_link_avt{
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card_content_link_avt img{
+    width: 100%;
+}
+
+.card_content_link_name{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.card_content_descrip{
+    width: 100%;
+    max-height: 200px;
+    font-size: 13px;
+    margin: 10px 0;
+    opacity: 0.7;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}
+
+.card_content_footer{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_content_footer_heart{
+    width: 20%;
+}
+
+.card_content_footer_heart div img{
+    height: 100%;
+}
+
+.card_content_footer_rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
