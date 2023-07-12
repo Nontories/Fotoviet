@@ -223,10 +223,10 @@ const Personal = () => {
                         </div>
 
                     </div>
-                    {
+                    {/* {
                         user &&
                         JSON.stringify(user)
-                    }
+                    } */}
                 </>
             }
             {

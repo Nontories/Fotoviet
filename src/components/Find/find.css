@@ -41,6 +41,15 @@
     font-weight: 5 00;
 }
 
+.find .find_dropdown{
+    border: none;
+}
+
+.find .find_dropdown option{
+    font-size: 15px;
+    padding: 5px;
+}
+
 @media (max-width: 1300px) {
 
     .find_section{

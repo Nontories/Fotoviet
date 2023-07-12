@@ -8,7 +8,8 @@ import { getAllPhotographers } from "../shared/firebase/firebase";
 const FindPhotographer = () => {
     const [data, setData] = useState([]);
     const location = useLocation();
-    const { topicsList, locate, price } = location.state;
+    console.log(location);
+    const { topicsList, locate, price } = location.state ? location.state : {topicsList: [], locate : null, price: null};
     useEffect(() => {
         if (!topicsList[0] && !locate && !price) {
             getAllPhotographers()

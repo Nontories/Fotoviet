@@ -110,7 +110,7 @@ const Find = () => {
             </div>
             <div className="find_section">
                 <div>Vị trí chụp</div>
-                <select value={locate} onChange={(e) => handleSelect(e.target.value)}>
+                <select className="find_dropdown" value={locate} onChange={(e) => handleSelect(e.target.value)}>
                     <option value="" hidden>Vị trí</option>
                     {LOCATE.map((option) => (
                         <option key={option.value} value={option.value}>
@@ -121,7 +121,7 @@ const Find = () => {
             </div>
             <div className="find_section">
                 <div>Ngân sách</div>
-                <select value={price} onChange={(e) => handPriceleSelect(e.target.value)}>
+                <select className="find_dropdown" value={price} onChange={(e) => handPriceleSelect(e.target.value)}>
                     <option value="" hidden>Giá tiền</option>
                     {PRICE.map((option) => (
                         <option key={option.value} value={option.value}>

@@ -7,6 +7,7 @@ import "../SettingInformation/settingInformation.css"
 import { UserContext } from '../../context/UserContext';
 
 import editButton from "../../assets/picture/editButton.png"
+import plus from "../../assets/picture/plus.png"
 
 const IMAGES = [
     {
@@ -174,13 +175,13 @@ const SettingInformation = () => {
         }
         console.log(data);
         console.log(user);
-        updateInforPhotographer({accountName: findValue(inforForm, "name").value})
+        updateInforPhotographer({ accountName: findValue(inforForm, "name").value })
     }, [inforForm, fileForm]);
 
     const handleSubmit = useCallback((e) => {
         e.preventDefault();
         let tmpData = [...fileForm];
-        
+
         if (editIndex === null) {
             const isTopicMatched = tmpData.some((item) => item.topics === formData.topics);
             if (isTopicMatched) {
@@ -236,9 +237,9 @@ const SettingInformation = () => {
         e.preventDefault();
         // updateInforPhotographer({accountName: "minh"})
         console.log('Selected Images:', selectedImages);
-        if(imagesIndex === null){
+        if (imagesIndex === null) {
             handleCloseImagesModal()
-        }else{
+        } else {
             fileForm[imagesIndex] = selectedImages
             handleCloseImagesModal()
         }
@@ -290,14 +291,17 @@ const SettingInformation = () => {
                     {fileForm.map((item, key) => {
                         return (
                             <div className="setting_information_profile_content" key={key}>
-                                <Button variant="primary" onClick={() => handleEdit(key)}>
-                                    Edit
-                                </Button>
                                 <div className="setting_information_profile_content_topic">
-                                    <p className="setting_information_profile_content_title">
-                                        Chủ đề:
-                                    </p>
-                                    <input className="setting_information_profile_content_topic_item" value={item.topics} disabled></input>
+                                    <>
+                                        <p className="setting_information_profile_content_title">
+                                            Chủ đề:
+                                        </p>
+                                        <input className="setting_information_profile_content_topic_item" value={item.topics} disabled></input>
+                                    </>
+                                    <img className="setting_information_editButton" src={editButton} alt="" onClick={() => { handleEdit(key) }} />
+                                    {/* <Button variant="primary" onClick={() => }>
+                                        Edit
+                                    </Button> */}
                                 </div>
                                 <div className="setting_information_profile_content_topic">
                                     <p className="setting_information_profile_content_title">
@@ -315,19 +319,21 @@ const SettingInformation = () => {
                                     <p className="setting_information_profile_content_title">
                                         Tải ảnh lên :
                                     </p>
-                                    <div className="setting_information_profile_content_topic_item">
+                                    {/* <div className="setting_information_profile_content_topic_item">
                                         150.000
-                                    </div>
-                                    <Button variant="primary" onClick={() => handleOpenImagesModal(key)}>
+                                    </div> */}
+                                    
+                                    <img className="setting_information_plus" src={plus} alt="" onClick={() => { handleOpenImagesModal(key) }} />
+                                    {/* <Button variant="primary" onClick={() => }>
                                         Open Modal
-                                    </Button>
+                                    </Button> */}
                                 </div>
                             </div>
                         );
                     })}
-                    <Button variant="primary" onClick={handleShowModal}>
-                        thêm chủ để chụp ảnh
-                    </Button>
+                    <p className="add_topic_button" onClick={handleShowModal}>
+                        thêm chủ để chụp ảnh +
+                    </p>
                 </div>
                 <div className="setting_information_button">
                     <button onClick={handleChangeData}>Lưu thay đổi</button>
